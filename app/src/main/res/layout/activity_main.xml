@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.kotlinandroid_p12_creatingviewsprogrammatically.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:onClick="createAndAddView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add View" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:clipToPadding="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+</LinearLayout>
